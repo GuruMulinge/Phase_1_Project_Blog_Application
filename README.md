@@ -1,1 +1,1 @@
-# Phase_1_Project_News_Application
+# Phase_1_Project_Blog_Application
