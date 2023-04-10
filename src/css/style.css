@@ -1,6 +1,6 @@
    .card-body img#post-image{
-        width: 100%
-        height: max-content
+        width: 100%;
+        height: max-content;
    } 
 
    .post-body-content p {
