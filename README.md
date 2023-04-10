@@ -9,7 +9,7 @@ The project is a blog application that allows users to create,read,update ans de
 - Json-Server
 
 
-# Project Setup
+# 3. Project Setup
 Clone repository
 ````bash
 git clone
@@ -65,6 +65,31 @@ code .
 ### Project Structure
 The Project structure is as follows
 ````markdown
+src 
+    ├── css
+    │   └── style.css
+    ├── index.html
+    ├── js
+    │   └── script.js
+    └── resources
+        └── db.json
+````
+The src directory contains the project files needed to run the project.
+The css folder contains the project's stylesheets file, ``style.css``.
+The js directory contains the project's Javascript file, ``script.js``.
+The resources folder contains the projects database, ``db.json``.
+
+## 4. Running the project.
+Open the ``index.html`` file in the src directory using your default or preferred browser.
+
+# 5. Key Application Functionalities.
+- **Reading posted blog posts**
+The blog post titles are listed in the left section of the webpage.
+Clicking any of the blog post's title will load the post and display it on the posts' display section that is the right section of the webpage.
+
+- **Adding a new blog post**
+Next to the 'Blog Posts' title is the ``Add Post`` button. By clicking it, the add a new blog post form will be displayed with four fields of entry where a user can add a new blog post's details and contents.
+
 
    
 
