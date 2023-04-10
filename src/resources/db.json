@@ -49,7 +49,7 @@
             "post_image": "https://picsum.photos/seed/generating/1920/1080",
             "likes": 3,
             "dislikes": 0
-        }
+        },
         {
             "id": 6,
             "title": "Ad adipisci vero tempore libero quisquam.",
@@ -59,7 +59,7 @@
             "post_image": "https://picsum.photos/seed/West/1920/1080",
             "likes": 2,
             "dislikes": 0           
-        }
+        },
         {
             "id": 7,
             "title": "Autem perspiciatis blanditiis.",
@@ -89,7 +89,7 @@
             "post_image": "https://picsum.photos/seed/male/1920/1080",
             "likes": 4,
             "dislikes": 1
-        }
+        },
         {
             "id": 10,
             "title": "Cum omnis iusto officia commodi cupiditate modi.",
