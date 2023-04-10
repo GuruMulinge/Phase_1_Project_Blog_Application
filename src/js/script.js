@@ -19,5 +19,30 @@ async function addPost(post) {
 }
 
 
+async function getPost(id){
+    return await fetch(`${url}/${id}`)
+      .then(res => res.json())
+      .catch(err => console.log(err));
+}
 
+function displayPostsTitles(){
+    fetchPosts().then(posts => {
+        posts.forEach(post => {
+            const postList = document.getElementById("post-lists");
+            const listItem = document.createElement("li");
+            listItem.className = "list-group-item";
+            listItem.id = `post-id-${post.id}`;
+            listItem.style.cursor = "pointer";
+            listItem.innerText = post.title;
+            postList.appendChild(listItem);
+
+            document.getElementById("post-id-1").classList.add("active");
+
+            listItem.addEventListener("click", event => {
+                document.querySelector(".active").classList.remove("active");
+                event.target.classList.toggle("active");
+                displayPost(post);
+            } );
+        });
+    });
 }
