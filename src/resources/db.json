@@ -1,0 +1,154 @@
+{
+    "posts": [
+        {
+            "id":1,
+            "title": "Ideal Laptop for Programming",
+            "body": "As a programmer or developer, it becomes really confusing to pick the best laptop from thousands of laptops available in the market.  It becomes even more difficult for a person who is just starting programming. \n \n It is the first most important thing that you should look for. A laptop with 8GB RAM is an ideal choice but 16GB RAM would the best choice. If your budget is too low then you can go with 4GB RAM also. Believe me it really sucks working on a low performance machine. Earlier I used to do android app development on a laptop with 4GB RAM. It was so annoying because everything works really slow. \n \n So I would highly recommend you a 16GB RAM laptop if you are a mobile app developer. \n \n Best Choice: 16GB RAM \n Ideal Choice: 8GB RAM \n Low Budget Choice: 4GB RAM",
+            "date": "2022-11-19",
+            "author": "Alexandra Kassulke",
+            "post-image": "https://cdn.mos.cms.futurecdn.net/Mt57o7YpeYbJxKaSwRYWH.jpg",
+            "likes": 20,
+            "dislikes": 22
+        },
+        {
+            "id": 2,
+            "title": "Why Learn Programming.",
+            "body": "Many people think you need A’s in math to program. That’s a misconception. Programming is more about logic and creativity. For example, you and your friends jokingly come up with an excellent smartphone game. You can wait for some company over the ocean to release it or make it yourself. You decide how this game will work and what the rules, interface, and functions will be. With programming skills comes the opportunity to create a product from scratch or implement an idea – an application, a website, a program – the way you need it.\n \n A simple truth: the more skills you have, your services are more expensive. For example, each paper writer who can design simple HTML-pages, accountants, or managers who can automate Excel or Access with the help of code cost more than their colleagues with only a basic set of skills.\n \n Large companies are increasing and are looking for new ways to optimize. Hiring a team of developers and paying each $2,000 to $3,000 monthly is expensive. Hiring a person who will write articles, layout, and even think of ways to improve the mobile version of the site is a profitable solution. \n \n For example, in The New York Times, more than half of the journalists already know how to program. When the publication changed its strategy and emphasized the development of the web and mobile version – trained in programming the employees who are responsible for digital content.\n \n There’s a popular rumor that programmers are better thinkers even in old age. Jokes are jokes, but there’s some truth to them. For example, in 2014, scientists from the University of Passau analyzed brain scans of people while they were doing programming. The results showed that the same brain parts that work when learning foreign languages are active. And this reduces the risk of developing Alzheimer’s disease.",
+            "date": "2022-10-06",
+            "author": "Alfonso Fadel",
+            "post_image": "https://www.capitalfm.co.ke/business/files/2019/02/ANDELA.jpg",
+            "likes": 10,
+            "dislikes": 1
+        },
+        {
+            "id": 3,
+            "title": "Web Designer vs Web Developer",
+            "body": "In the world of web development, there are two primary roles that are essential to the success of any web project: the web designer and the web developer. While these two roles are often used interchangeably, they actually represent very distinct skill sets and responsibilities. In this blog post, we'll take a closer look at the differences between web designers and web developers, and explore the unique strengths and contributions of each. \n \n Designers \n Web designers are responsible for the visual design and layout of a website. They create the overall look and feel of the site, including its color scheme, typography, and graphics. They work closely with clients to understand their branding and messaging goals, and then use their creative skills to translate those goals into an attractive and effective website design. \n Designers use a variety of tools and software to create their designs, including graphic design software like Adobe Photoshop and Illustrator, as well as prototyping and wireframing tools like Sketch and Figma. They also need a strong understanding of user experience (UX) principles, as they are responsible for designing websites that are not only visually appealing, but also easy to use and navigate. \n \n Developers developers are responsible for the technical aspects of a website, including its functionality, interactivity, and performance. They use programming languages like HTML, CSS, and JavaScript to create the code that powers a website. They also work with databases and server-side languages like PHP and Ruby on Rails to create dynamic, data-driven websites. \n Web developers are focused on creating websites that are fast, responsive, and secure. They are responsible for ensuring that the website functions properly across a wide range of devices and platforms, and that it can handle large amounts of traffic without crashing or slowing down. \n \n The Overlap \n  While web designers and web developers have distinct roles and responsibilities, there is also some overlap between the two. For example, many web designers have at least a basic understanding of HTML and CSS, which allows them to create designs that are more technically feasible. Similarly, many web developers have a good eye for design, which allows them to create websites that not only function well, but also look great. \n In some cases, a single person may even take on both roles, particularly on smaller web projects. However, it's important to note that web design and web development require very different skill sets, and it's not always practical or efficient for one person to handle both. \n \n Conclusion \n Web designers and web developers are both essential to the success of any web project. While their roles and responsibilities may differ, they both play a critical role in creating effective and engaging websites. Whether you're looking to hire a web designer, a web developer, or both, it's important to understand the unique strengths and contributions of each role, and to find the right balance between design and development for your particular project.",
+            "date": "2022-12-08",
+            "author": "Crystal Fadel",
+            "post_image": "https://www.openxcell.com/wp-content/uploads/2022/04/web-developer-vs-web-designer.jpg",
+            "likes": 1,
+            "dislikes": 0
+        },
+        {
+            "id": 4,
+            "title": "Software Engineer vs. Software Developer",
+            "body": "The terms software engineer and software developer are often used interchangeably, but they actually represent distinct roles and skill sets in the world of software development. In this blog post, we'll take a closer look at the differences between software engineers and software developers, and explore the unique contributions of each. \n \n Software Engineers\n  Software engineers are responsible for designing, building, and testing software applications. They use a variety of tools and technologies to develop software that meets the needs of their clients or end-users. They work with other members of the development team, including project managers, quality assurance testers, and software architects, to ensure that the software meets the required specifications and performs as expected.\n Software engineers typically have a strong background in computer science or a related field, and they are skilled in programming languages such as Java, C++, and Python. They also have a good understanding of software engineering principles, such as software design patterns, coding best practices, and testing methodologies. \n \n Software Developers \n Software developers are responsible for writing, testing, and maintaining software applications. They work with other members of the development team to ensure that the software meets the required specifications and performs as expected. They may also be responsible for troubleshooting and fixing bugs, as well as implementing new features or functionality. \n Software developers typically have a background in computer science or a related field, and they are skilled in programming languages such as Java, Python, and JavaScript. They may also have expertise in specific software development frameworks or tools, such as React or Node.js. \n \n The Overlap \n While there are distinct differences between software engineers and software developers, there is also some overlap between the two roles. For example, both software engineers and software developers are responsible for creating and maintaining software applications. They both need a good understanding of programming languages and software development best practices. \n In some cases, a single person may even take on both roles, particularly on smaller software projects. However, it's important to note that software engineering and software development require different skill sets, and it's not always practical or efficient for one person to handle both. \n \n Conclusion \n Software engineers and software developers both play important roles in the development of software applications. While there are some similarities between the two roles, there are also distinct differences in their responsibilities and skill sets. Whether you're looking to hire a software engineer, a software developer, or both, it's important to understand the unique contributions of each role, and to find the right balance between engineering and development for your particular project.",
+            "date": "2022-08-13",
+            "author": "Adam Kuphal",
+            "post_image": "https://d2o2utebsixu4k.cloudfront.net/media/images/f745a24b-4831-49b2-ad07-eb30f14b48a7.png",
+            "likes": 8,
+            "dislikes": 0
+        },
+        {
+            "id": 5,
+            "title": "In nihil perferendis.",
+            "body": "Blanditiis suscipit quasi necessitatibus. Doloremque delectus unde aspernatur reiciendis repellat dolorum fuga. Tenetur vel molestias ea perferendis sunt.",
+            "date": "2022-08-08",
+            "author": "Sophie Feest",
+            "post_image": "https://picsum.photos/seed/generating/1920/1080",
+            "likes": 3,
+            "dislikes": 0
+        }
+        {
+            "id": 6,
+            "title": "Ad adipisci vero tempore libero quisquam.",
+            "body": "Necessitatibus ducimus dolor deleniti ex. Aliquid excepturi impedit consectetur nihil dolorem nostrum eligendi. Aperiam rerum repudiandae quia temporibus quas illum minus. Eum reprehenderit dolores impedit quibusdam debitis eos exercitationem quo pariatur. Quos harum sed dicta est. Earum voluptatum atque vero reiciendis quam necessitatibus excepturi et ipsum.",
+            "date": "2022-07-08",
+            "author": "Marion Hoeger",
+            "post_image": "https://picsum.photos/seed/West/1920/1080",
+            "likes": 2,
+            "dislikes": 0           
+        }
+        {
+            "id": 7,
+            "title": "Autem perspiciatis blanditiis.",
+            "body": "Nostrum earum necessitatibus consequuntur libero veniam doloremque. Perspiciatis id deserunt totam saepe similique explicabo sapiente. Tempore officiis odit at dignissimos architecto ratione. Est veniam dolorem non.",
+            "date": "2022-12-25",
+            "author": "Miss Fernando Russel",
+            "post_image": "https://picsum.photos/seed/next/1920/1080",
+            "likes": 0,
+            "dislikes": 4
+        },
+        {
+            "id": 8,
+            "title": "Repellendus nostrum vel aspernatur optio perspiciatis necessitatibus commodi provident nisi.",
+            "body": "Assumenda nisi odit omnis maiores. Perspiciatis ipsa nesciunt. Cupiditate possimus id sequi ea. Iste adipisci commodi ex placeat laboriosam saepe a. Aspernatur unde totam architecto saepe recusandae non iste magni ullam. Nisi mollitia quam quae iure illum ducimus optio.",
+            "date": "2022-09-02",
+            "author": "Ruby Metz MD",
+            "post_image": "https://picsum.photos/seed/lime/1920/1080",
+            "likes": 2,
+            "dislikes": 0
+        },
+        {
+            "id": 9,
+            "title": "Incidunt quas eum voluptatum dolorum.",
+            "body": "Consequatur consectetur deserunt. Velit reprehenderit incidunt officia odit ea alias odit. Odit eveniet quis deleniti asperiores molestias harum fuga. Odit et nobis fugit. Commodi nostrum voluptatem quis nemo enim explicabo cum corporis voluptatum. Dolore adipisci occaecati eaque eligendi esse tenetur commodi dolorum.",
+            "date": "2022-08-24",
+            "author": "Ms. Becky Smith",
+            "post_image": "https://picsum.photos/seed/male/1920/1080",
+            "likes": 4,
+            "dislikes": 1
+        }
+        {
+            "id": 10,
+            "title": "Cum omnis iusto officia commodi cupiditate modi.",
+            "body": "Dolor est nam dicta cupiditate. Ratione dignissimos nemo a modi. Sit unde unde maxime animi.",
+            "date": "2023-01-22",
+            "author": "Yolanda Swift",
+            "post_image": "https://picsum.photos/seed/Mouse/1920/1080",
+            "likes": 1,
+            "dislikes": 1
+          },
+          {
+            "id": 11,
+            "title": "Porro vitae error praesentium.",
+            "body": "Necessitatibus iusto ipsa eius molestias debitis excepturi. Nihil porro natus. Dolore omnis voluptate asperiores labore sapiente consequuntur hic.",
+            "date": "2023-02-02",
+            "author": "Jared Jones",
+            "post_image": "https://picsum.photos/seed/since/1920/1080",
+            "likes": 3,
+            "dislikes": 1
+          },
+          {
+            "id": 12,
+            "title": "Doloremque tempore eos.",
+            "body": "Quas quis doloribus laborum quibusdam voluptas repellendus. Molestiae rem ratione ea ipsam velit est quasi optio. Nemo neque dolore rem cupiditate voluptate dolorum voluptatibus quisquam saepe. Enim quis ut dolorem exercitationem. Fugiat tenetur assumenda voluptates facilis nemo. Est nemo voluptatum ipsum omnis debitis quam ea ex eveniet.",
+            "date": "2022-05-06",
+            "author": "Terrance Erdman",
+            "post_image": "https://picsum.photos/seed/Optimization/1920/1080",
+            "likes": 3,
+            "dislikes": 1
+          },
+          {
+            "id": 13,
+            "title": "Dolor magnam minus molestias harum delectus eum.",
+            "body": "Repellendus magni nulla voluptas dolore. Impedit magnam hic soluta vitae. Dicta quidem perspiciatis pariatur dolor. Consectetur voluptates ea totam odit eveniet. Soluta sint recusandae perspiciatis minima ipsum. Non nisi in iste.",
+            "date": "2022-06-21",
+            "author": "Charlene Beatty",
+            "post_image": "https://picsum.photos/seed/system/1920/1080",
+            "likes": 8,
+            "dislikes": 0
+          },
+          {
+            "id": 14,
+            "title": "What is JSON",
+            "body": "JSON (JavaScript Object Notation) is a lightweight data interchange format that has become ubiquitous in modern web development. It is easy to understand, language-independent, and has excellent compatibility with a wide range of programming languages.\n\nIn this blog post, we will explore what JSON is, why it is so popular, and how it is used.\n\nWhat is JSON?\nJSON is a text format that is used to transmit data between a server and a client in a web application. It is similar to XML, but it is more compact, easier to read, and can be parsed more quickly.\n\nThe basic structure of a JSON object is a collection of key-value pairs, where the key is always a string and the value can be any valid JSON data type. The data types supported by JSON include numbers, strings, booleans, null, arrays, and objects.\n\nHere is an example of a simple JSON object:\n\njson\nCopy code\n{\n   \"name\": \"John\",\n   \"age\": 30,\n   \"isMarried\": true,\n   \"hobbies\": [\"reading\", \"music\", \"travel\"]\n}\nIn this example, the object has four key-value pairs. The name key has a string value of \"John\", the age key has a numeric value of 30, the isMarried key has a boolean value of true, and the hobbies key has an array value of [\"reading\", \"music\", \"travel\"].\n\nWhy is JSON so popular?\nJSON has become one of the most popular data interchange formats for several reasons:\n\nLightweight: JSON is lightweight and easy to read, making it an ideal choice for transmitting data over the internet.\n\nEasy to use: JSON is straightforward to use, and most programming languages have built-in support for working with JSON.\n\nWide Compatibility: JSON is compatible with almost every modern programming language, including Java, Python, Ruby, JavaScript, and PHP.\n\nStandardized: JSON is an open standard, meaning that it is freely available and widely adopted across the web.\n\nHuman-readable: Unlike binary formats, JSON is human-readable, which makes it easy to debug and understand.\n\nHow is JSON used?\nJSON is commonly used in web development to transmit data between a client and server. For example, when a user submits a form on a web page, the data is sent to the server in JSON format, where it can be processed and stored in a database.\n\nJSON is also used for web APIs, which allow developers to access data and functionality from remote servers. In this case, the API returns data in JSON format, which the client can then parse and use as needed.\n\nIn addition, JSON is often used for configuration files, where it can be used to store application settings and other parameters.\n\nConclusion\nJSON is a lightweight, language-independent, and widely compatible data interchange format that has become ubiquitous in modern web development. Its simplicity and ease of use have made it an essential tool for transmitting data between servers and clients, as well as for web APIs and configuration files. If you are involved in web development, understanding JSON is essential for building modern, efficient, and scalable web applications.",
+            "author": "Kevin Paulose",
+            "post_image": "https://www.crio.do/blog/content/images/size/w1000/2021/06/What-is-JSON.png",
+            "date": "4/6/2023",
+            "likes": 14,
+            "dislikes": 7
+          },
+          {
+            "id": 15,
+            "title": "This is a test post",
+            "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+            "author": "Anthony Mulinge",
+            "post_image": "https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg",
+            "date": "4/6/2023",
+            "likes": 4,
+            "dislikes": 3
+          }
+        ]
+}
