@@ -13,7 +13,7 @@ They can also give feedback by liking or disliking the posts they have read.
 # 3. Project Setup
 Clone repository
 ````bash
-git clone
+git clone git@github.com:GuruMulinge/Phase_1_Project_Blog_Application.git
 ````
 
 Open the project in the terminal.
@@ -63,22 +63,59 @@ yarn json-server src/resources/db.json --watch
 code .
 ````
 
+### Project Structure
+The Project structure is as follows
+````markdown
+src 
+    ├── css
+    │   └── style.css
+    ├── index.html
+    ├── js
+    │   └── script.js
+    └── resources
+        └── db.json
+````
 
 The src directory contains the project files needed to run the project.
+
 The css folder contains the project's stylesheets file, ``style.css``.
+
 The js directory contains the project's Javascript file, ``script.js``.
+
 The resources folder contains the projects database, ``db.json``.
 
 ### Running the project.
 Open the ``index.html`` file in the src directory using your default or preferred browser.
 
 
-## 6. Author
+# 4. Key Application Functionalities.
+- **Reading posted blog posts**
+The blog post titles are listed in the left section of the webpage.
+Clicking any of the blog post's title will load the post and display it on the posts' display section that is the right section of the webpage.
+
+- **Adding a new blog post**
+Next to the 'Blog Posts' title is the ``Add Post`` button. By clicking it, the add a new blog post form will be displayed with four fields of entry where a user can add a new blog post's details and contents.
+
+- *N/B* <br>In the case that user clicks the ``Add Post`` button and has no intention of doing that,the same ``Add Post`` button is also used to return to the list of published Blog Posts in the webpage.
+
+
+- **Liking a Post**
+A user may like a post and can give feedback by clicking the thumbs up button.
+This will increase irreversibly the number of post likes;
+
+- **Disliking a Post**
+A user may like a post and can give feedback by clicking the thumbs down button.
+This will increase irreversibly the number of post dislikes;
+
+
+
+
+# 5. Author
 The project is authored by <a href="https://github.com/GuruMulinge/" target="_blank">Anthony Mulinge</a>
 
 Anthony is a software engineering student at <a href="https://moringaschool.com/" target="_blank">Moringa School</a>. He is currently studying Full Stack Engineering Course.
 
-## 7. License
+# 6. License
 The project is licensed under the <a href="https://opensource.org/licenses/MIT/" target="_blank">MIT license</a>.
 
    
