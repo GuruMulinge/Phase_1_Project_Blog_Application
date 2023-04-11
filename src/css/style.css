@@ -12,4 +12,60 @@
         font-size: 0.8rem;
         font-weight: 700;
         margin-bottom: 1rem;
+        text-transform: uppercase !important;
+        text-align: center !important;
    }
+
+   .card-header,
+   .card-footer {
+        background: #ffffff !important;
+   }
+
+   .list-group-item{
+        border: 0 !important;
+        border-bottom: 1px solid rgba(0,0,0,0.125) !important;
+   }
+   li.list-group-item:nth-last-child(1){
+        border-bottom: 0 !important;
+   }
+   li.list-group-item{
+        padding: 5em 0em;
+        text-align:justify;
+   }
+
+   .list-group-item.active {
+        padding: 1em;
+        border-radius: 15px;
+        background: #357e7a !important;
+        color: white !important;
+        box-shadow: 0 0 1px #478b8b9c;
+        border-top: 1px solid #478b8b !important;
+        border-bottom: 1px solid #478b8b !important;
+   }
+
+   .list-group-item{
+        padding: 1em !important;
+   }
+
+   .hidden {
+        display: none;
+        visibility: hidden;
+   }
+
+   .btn-primary {
+        color: #ffffff !important;
+        background-color: #478b8b !important;
+        border-color: #48bb8b !important;
+   }
+   .btn-outline-primary:hover,
+   .btn-primary:hover {
+        color: #ffffff !important;
+        background-color: #478b8b  !important;
+        border-color: #478b8b  !important;
+     
+   }
+   .btn-outline-primary:focus,
+   .btn-primary:focus {
+        box-shadow: 0 0 0 0.2rem rgba(71, 139, 139, 0.5) !important;
+}
+   

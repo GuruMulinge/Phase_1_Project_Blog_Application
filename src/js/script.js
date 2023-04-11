@@ -46,3 +46,20 @@ function displayPostsTitles(){
         });
     });
 }
+
+function displayPost(post) {
+    document.getElementById("post-body").innerText = postbody;
+    document.getElementById("post-author").innerText = `Author :   ${post.author}`;
+    document.getElementById("post-date").innerText = `Publish Date:  ${post.date}`;
+    document.getElementById("post-image").src = post.post_image;
+    document.getElementById("post-title").innerText = post.title;
+
+    const postLikes = document.getElementById("post-ikes");
+    const postDislikes = document.getElementById("post-dislikes");
+
+    postLikes.innerText = `Post Likes: ${post.likes}`;
+    postDislikes.innerText = `Post Dislikes: ${post.dislikes}`;
+
+
+    
+}
