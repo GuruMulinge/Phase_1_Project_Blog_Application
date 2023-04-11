@@ -48,13 +48,13 @@ function displayPostsTitles(){
 }
 
 function displayPost(post) {
-    document.getElementById("post-body").innerText = postbody;
+    document.getElementById("post-body").innerText = post.body;
     document.getElementById("post-author").innerText = `Author :   ${post.author}`;
     document.getElementById("post-date").innerText = `Publish Date:  ${post.date}`;
     document.getElementById("post-image").src = post.post_image;
     document.getElementById("post-title").innerText = post.title;
 
-    const postLikes = document.getElementById("post-ikes");
+    const postLikes = document.getElementById("post-likes");
     const postDislikes = document.getElementById("post-dislikes");
 
     postLikes.innerText = `Post Likes: ${post.likes}`;
@@ -69,19 +69,33 @@ function displayPost(post) {
 
 
     likePost.addEventListener("click", async () => {
-        post.likes++;
+        ++post.likes;
         await updatePost(post).then(() => {
             postLikes.innerText = `Post Likes: ${post.likes}`;
         });
     });
 
     dislikePost.addEventListener("click", async () => {
-        post.dislikes++;
+        ++post.dislikes;
         await updatePost(post).then(() => {
             postDislikes.innerText = `Post Dislikes: ${post.dislikes}`;
         });
     });
 }
+
+async function updatePost(post) {
+    //send a put request to the server
+    return await fetch(`${url}/${post.id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(post)
+    })
+      .then(res => res.json())
+      .catch(err => console.log(err));
+  }
+  
 
 function displayFirstPost() {
     fetchPosts().then(posts => {

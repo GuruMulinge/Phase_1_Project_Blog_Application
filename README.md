@@ -18,7 +18,7 @@ git clone
 
 Open the project in the terminal.
 ````bash
-cd
+cd Phase_1_Project_Blog_Application
 ````
 
 Start the Json Server.
