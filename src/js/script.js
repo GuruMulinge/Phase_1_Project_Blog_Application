@@ -136,7 +136,25 @@ function submitBlogPosts() {
     });
 }
 
+function togglePostForm() {
+    document.getElementById("post-display-area").classList.toggle("hidden");
+    document.getElementById("add-post-hidden").classList.toggle("hidden");
+}
 
+document.addEventListener("DOMContentLoaded", () => {
+    displayFirstPost();
+    displayPostsTitles();
 
+     document
+      .getElementById("post-form-clear-btn")
+      .addEventListener("click", clearForm);
+
+     document
+      .getElementById("submit-post-btn")
+      .addEventListener("click", submitBlogPosts);
+     document
+      .getElementById("add-blog-post-btn")
+      .addEventListener("click", togglePostForm);
+});
 
 
