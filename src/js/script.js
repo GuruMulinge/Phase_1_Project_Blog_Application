@@ -111,3 +111,32 @@ function clearForm() {
     document.getElementById("blog-post-image-link").value = "";
 }
 
+function submitBlogPosts() {
+    const form = document.getElementById("add-blog-post");
+    form.addEventListener("submit", event => {
+        event.preventDefault();
+
+        const post = {
+            id:"",
+            title: document.getElementById("blog-post-title").value,
+            body: document.getElementById("blog-post-body").value,
+            author: document.getElementById("blog-post-author").value,
+            post_image: document.getElementById("blog-post-image-link").value,
+            date: new Date().toLocaleDateString(),
+            likes: 0,
+            dislikes: 0
+        };
+
+        addPost(post).then(post =>{
+            clearForm();
+            togglePostForm();
+            addPostToDom(post);
+            displayPost(post);
+        });
+    });
+}
+
+
+
+
+
