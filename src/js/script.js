@@ -61,5 +61,53 @@ function displayPost(post) {
     postDislikes.innerText = `Post Dislikes: ${post.dislikes}`;
 
 
-    
+    const likePost = document.getElementById("like-post");
+    const dislikePost = document.getElementById("dislike-post");
+
+    likePost.style.cursor = "pointer";
+    dislikePost.style.cursor = "pointer"
+
+
+    likePost.addEventListener("click", async() => {
+        post.likes++;
+        await updatePost(post).then(() => {
+            postLikes.innerText = `Post Likes: ${post.likes}`;
+        });
+    });
+
+    dislikePost.addEventListener("click", async() => {
+        post.dislikes++;
+        await updatePost(post).then(() => {
+            postDislikes.innerText = `Post Dislikes: ${post.dislikes}`;
+        });
+    });
 }
+
+function displayFirstPost() {
+    fetchPosts().then(posts => {
+        displayPost(posts[0]);
+    });
+}
+
+function addPostToDom(post){
+    const postList = document.getElementById("post-lists");
+    const listItem = document.createElement("li");
+    listItem.className = "list-group-item";
+    listItem.id = `post-id-${post-id}`;
+    listItem.style.cursor = "pointer";
+    listItem.innerText = post.title;
+    postList.appendChild(listItem);
+    listItem.addEventListener("click", event =>{
+        document.querySelector(".active").classList.remove("active");
+        event.target.classList.toggle("active");
+        displayPost(post);
+    });
+}
+
+function clearForm() {
+    document.getElementById("blog-post-title").value = "";
+    document.getElementById("blog-post-body").value = "";
+    document.getElementById("blog-post-author").value = "";
+    document.getElementById("blog-post-image-link").value = "";
+}
+
