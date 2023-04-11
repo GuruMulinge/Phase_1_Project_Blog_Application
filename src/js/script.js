@@ -68,14 +68,14 @@ function displayPost(post) {
     dislikePost.style.cursor = "pointer"
 
 
-    likePost.addEventListener("click", async() => {
+    likePost.addEventListener("click", async () => {
         post.likes++;
         await updatePost(post).then(() => {
             postLikes.innerText = `Post Likes: ${post.likes}`;
         });
     });
 
-    dislikePost.addEventListener("click", async() => {
+    dislikePost.addEventListener("click", async () => {
         post.dislikes++;
         await updatePost(post).then(() => {
             postDislikes.innerText = `Post Dislikes: ${post.dislikes}`;
@@ -127,7 +127,7 @@ function submitBlogPosts() {
             dislikes: 0
         };
 
-        addPost(post).then(post =>{
+        addPost(post).then(post => {
             clearForm();
             togglePostForm();
             addPostToDom(post);
