@@ -56,12 +56,33 @@
                             <small id="post-dislikes" class="text-muted"></small>
                         </div>
                         <div>
-
-                    
-
-                    
+                            <!-- Post likes and dislike emoji icons -->
+                            <div class = "like-dislike">
+                                <span class="like" id= "like-post">&#128077;</span>
+                                <span class="dislike" id="dislike-post">&#128078;</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="col-md-8 hidden" id="add-post-hidden">
+                <div class="card p-lg-3">
+                    <form id="add-blog-post">
+                        <div class="card-header">
+                            <h5 class="card-title text-center">
+                                Add New Blog Post
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label for="blog-post-title" class="form-label">Post Title</label>
+                                <input type="text" class="form-control form-control-lg" id="blog-post-title" name="blog-post-title">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        
         </div>
     </div>
 </body>
