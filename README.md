@@ -23,7 +23,7 @@ cd Phase_1_Project_Blog_Application
 
 Start the Json Server.
 ````
-json-server src/resource/db.json --watch
+json-server src/resources/db.json --watch
 ````
 
 If you don't have a json-server installed, install it as depicted below;
